@@ -1,0 +1,76 @@
+ h2{
+        color:rgba(255, 0, 0, 0.616);
+    } 
+
+    /*selector{
+        property: value;
+        property: value;
+    }*/
+    body{
+        font-size: 22px;
+    }
+    h2{
+        text-decoration: underline wavy;
+        font-size: 26px;
+        font-style: oblique;
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-variant: small-caps;
+        color: rgba(130, 255, 0, 0.80);
+       border-style: double;
+        border-color: crimson;
+        border-width: 5px  15px;
+        /* border: double crimson 10px ; */
+        border-top:blueviolet solid 10px ;
+        border-left:blueviolet 7px solid ;
+        padding: 15px 25px  ;
+        margin:10px 20px 30px 10px;
+
+        }
+ h3{
+        color:chocolate
+    }
+    h4{
+        color:red }
+
+    .class1{
+        color: green;
+        font-size: 20px;
+    }
+    ul{
+        color:blueviolet
+    }
+    
+    #id1{
+        color: brown;
+    }
+
+    a:link{
+        color:green;
+        text-decoration: none;
+    }
+    a:visited{
+        color:red ;
+    }
+    a:hover{
+        color:purple;
+        font-size: 28px;
+    }
+    a:active{
+        color:brown ;
+        text-decoration: underline;
+    }
+
+    body{
+        background:beige;
+        background-image:url(27093.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+     #div1{
+        background:yellowgreen ;
+     }
+
+
