@@ -18,7 +18,7 @@
         font-variant: small-caps;
         color: rgba(130, 255, 0, 0.80);
        border-style: double;
-        border-color: crimson;
+        border-color: lightblue;
         border-width: 5px  15px;
         /* border: double crimson 10px ; */
         border-top:blueviolet solid 10px ;
@@ -28,10 +28,13 @@
 
         }
  h3{
-        color:chocolate
+        color:chocolate;
+        display:inline-block ; 
     }
     h4{
-        color:red }
+        color:lightblue;
+    visibility: hidden; }
+
 
     .class1{
         color: green;
@@ -72,5 +75,89 @@
      #div1{
         background:yellowgreen ;
      }
+.overflow{
+    border:solid blue 5px;
+    width: 300px;
+    height: 200px;
+    overflow:auto;
+
+}
+/* .container{
+    display: flex ;
+    margin:30px;
+    background:blue ;
+    padding: 10px;
+    height:400px;
+
+    flex-flow: row wrap ; 
+    justify-content: space-evenly ;
+    align-items: center ; 
+
+} */
+
+.container{
+   width:700px;
+    height:200px ; 
+    background: rgba(255, 255, 255, 0.5);
+    color:navy;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap : 10px 20px ; 
+   justify-content: space-evenly ;
+   align-content: space-evenly;
+   grid-template-areas: "header header"
+   "sidebar content";
+
+}
+
+/* .container div{
+    width:200px;
+    height:250px;
+    background: rgba(255, 255, 255, 0.5);
+    color:navy;
+    font-size: 54px;
+    font-weight: bolder;
+    text-align: center;
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+} */
+
+/* .container div{
+    width:700px;
+    height:200px ; 
+    background: rgba(255, 255, 255, 0.5);
+    color:navy;
+    font-size: 54px;
+    font-weight: bolder;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+  
+    gap : 10px 20px ; 
+   justify-content: center ;
+} */
 
 
+ .cont1{
+    grid-area: header;
+    padding:20px;
+    margin:10px;
+    background: red;
+    /* grid-column: 1/3;
+    grid-row: 1/4; */
+}
+.cont2{
+    grid-area: content;
+    padding:20px;
+    margin:10px;
+    background:white ;
+}
+.cont3{
+    grid-area: sidebar;
+    padding:20px;
+    margin:10px;
+    background:black ;
+} 
